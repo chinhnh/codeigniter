@@ -1,0 +1,93 @@
+/*Reset CSS*/
+html {margin-bottom: 1px;height: 100%!important;height: auto;}
+:link,:visited {text-decoration:none;}
+html,body,div,
+ul,ol,li,dl,dt,dd,
+form,fieldset,input,textarea,
+h1,h2,h3,h4,h5,h6,pre,code,p,blockquote,hr,
+th,td {margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal}
+table {border-spacing:0;}
+fieldset,img,abbr,acronym {border:0;}
+address {font-style:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+q:before,q:after {content:'';}
+a {text-decoration:none;outline:none;color:#005FA3;}
+a:hover {text-decoration:underline;}
+hr {border:0;height:1px;background-color:#000;color:#000;}
+a img,:link img,:visited img {border:none;}
+
+input[type="submit"] {cursor:pointer;font-family:Tahoma;font-size:11px;padding-left:5px; padding-right:5px;} 
+textarea {padding: 4px; border:solid 1px #c0c0c0;}
+select {border: solid 1px #C0C0C0; padding:1px; font-family:Tahoma; font-size:11px;}
+input[type="text"], input[type="password"] {
+border:solid 1px #c0c0c0; padding:2px; font-family:Tahoma; font-size:11px; color:#333333;
+}
+input[type="Checkbox"], input[type="radio"] {margin-right:5px; margin-left: 5px;}
+.TextInput{border:solid 1px #c0c0c0;}
+*{font-family:Arial,Tahoma; font-size:12px;}
+body {
+	font-family:Arial,Tahoma;
+	font-size:12px;
+	margin: 0;
+	padding:0;
+	padding: 0px;
+	background-color:#ECECEC;
+	background-image: url("../images/bg.jpg");
+    background-position: left top;
+    background-repeat: repeat-x;
+}
+.left{float:left;}
+.right{float:right;}
+
+#AjaxLoading {
+    background: none repeat scroll 0 0 #FCF5AA;
+    display: none;
+    padding: 5px 10px;
+    text-align: center;
+    width: 180px;
+    z-index: 2147483647;
+}
+/* Message */
+.message {
+	margin: 1em 0;
+	padding: 10px 20px;
+	border: solid 1px #FFDD99;
+	background-color: #FFFFCC;
+	overflow: hidden;
+}
+/* Error */
+.red {
+	border: solid 1px #B50000;
+	background-color: #FFEBEB;
+}
+
+/* Current */
+.green {
+	border: solid 1px #DDF0DD;
+	background-color: #EBFFEB;
+}
+
+/* Themes */
+.white {
+	color: white;
+}
+
+.mem_acc {
+	font-size: 22px;
+	font-family: Arial,Tahoma;
+	margin: 22px 12px;
+	text-shadow: 0px 1px 0px #000;
+}
+
+.login_text {
+	font-size: 14px;
+	font-family: Arial,Tahoma;
+	margin: -42px 12px 22px 12px;
+	text-shadow: 0px 1px 0px #000;
+}
+
+a.hrlink {text-decoration:none;outline:none;color:#fff;font-size: 16px;font-family: Arial,Tahoma;text-shadow: 0px 1px 0px #000;}
+a.hrlink:hover {text-decoration:none;color: #78D2FF;text-shadow: 0px 1px 0px #000;}
+

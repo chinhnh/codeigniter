@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.wrapper {
+    width: 950px;
+    border: 10px outset #CDCDCD;
+    margin: 20px auto 0;	
+}
+.header {
+	height: 140px;
+	position: relative;
+	
+}
+.left {
+	float:left;
+	margin-left: 0px;
+	text-align: left;
+
+	border: 1px;
+	margin-top: 20px;
+	width: 180px;
+}
+.content {
+	width: 700px;
+	float: right;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 14px;
+	
+
+}
+

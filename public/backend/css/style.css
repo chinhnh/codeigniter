@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	background-repeat: repeat;
+	background-position: bottom left;
+	background-attachment: fixed;
+	font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+ background:url(../images/bg.jpg);
+}

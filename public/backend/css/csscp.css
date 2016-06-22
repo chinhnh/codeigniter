@@ -1,0 +1,55 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+	font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+}
+table, tr, td, p {
+	margin: 0px;
+	font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.tborder
+{
+	background: #FFFFFF;
+	color: #707070;
+	border: 1px solid #C8E2FF;
+}
+.tcat
+{
+	background: #0054C5 url(../images/gradient_tcat.gif) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+.panelsurround
+{
+	background: #EAF4FF;
+	color: #707070;
+}
+.panel
+{
+	background: #F1F7FE;
+	color: #707070;
+	padding: 10px;
+	border:1px solid #C8E2FF;
+}

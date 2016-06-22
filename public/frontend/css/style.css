@@ -1,0 +1,38 @@
+*{margin: 0 ; padding: 0;}
+ body{
+    font-family: Arial, Tahoma;
+    font-size: 13px;
+    background: url(../imgs/bg-wrapper.jpg);
+      padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 1000px;
+}
+.wrapper {
+    width: 950px;
+    border: 10px outset #CDCDCD;
+
+}
+
+#header{
+    margin-bottom: 1px;
+  width: 100%;
+  height: 40px;
+  background:url(../imgs/tv.jpg)  
+}
+#header p a{
+    color: white;
+     font-weight: bold;
+   margin-right: 30px;
+}
+#header p{
+      color: white;
+      margin-left: 1020px;
+   
+}
+
+a{
+text-decoration: none;
+
+    
+}
